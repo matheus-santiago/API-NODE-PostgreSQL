@@ -1,0 +1,29 @@
+POST http://localhost:3333/pessoas
+Content-Type: application/json
+
+
+{
+    "nome": "Matheus Grabner",
+    "nacionalidade": "brasileiro",
+    "idade": "20"
+}
+
+###
+
+GET http://localhost:3333/pessoas
+
+###
+
+PUT http://localhost:3333/pessoas/f07b484b-3d04-4e49-a57c-9653989a9a91
+Content-Type: application/json
+
+
+{
+    "nome": "Matheus Santiago",
+    "nacionalidade": "Brasileiro",
+    "idade": "20"
+}
+
+###
+
+DELETE http://localhost:3333/pessoas/f07b484b-3d04-4e49-a57c-9653989a9a91
